@@ -12,6 +12,7 @@ Cooperative scheduler on the **STM32F103C6**, built with STM32CubeIDE and simula
 - Tasks due at the same tick run in order, with no drift
 - Non-blocking `printf` on USART2 (115200 bit/s) through a ring buffer
 
+## Files
 | File | Content |
 |---|---|
 | `Src/scheduler.c`, `Inc/scheduler.h` | Scheduler |
